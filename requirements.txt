@@ -1,0 +1,4 @@
+gym
+gym-minigrid
+pyvirtualdisplay
+pandas
