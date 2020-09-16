@@ -1,6 +1,6 @@
 #!/bin/bash
 docker run \
-    -v $PWD/code:/tf/code \
+    -v $PWD/notebooks:/tf/notebooks \
     -p 8888:8888 \
     --gpus all \
     --name python-env \
