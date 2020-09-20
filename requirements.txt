@@ -1,5 +1,10 @@
+pandas
+jupyter
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+pyopengl
 gym
 gym-minigrid
 pyvirtualdisplay
-pandas
-sklearn
