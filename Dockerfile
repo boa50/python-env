@@ -15,7 +15,7 @@ RUN apt install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1 \
     libnvinfer-dev=6.0.1-1+cuda10.1 \
     libnvinfer-plugin6=6.0.1-1+cuda10.1
 
-RUN apt-get install -y sudo xvfb python-opengl ffmpeg sudo mesa-utils python-opengl
+RUN apt-get install -y sudo xvfb python-opengl ffmpeg sudo mesa-utils python-opengl git-all
 
 RUN apt install -y --no-install-recommends python3-pip python3 python
 
